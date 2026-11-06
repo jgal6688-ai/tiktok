@@ -1,0 +1,22 @@
+{
+  "webhook_url": "SET_BY_GITHUB_SECRET",
+  "check_interval_seconds": 300,
+
+  "bot_name": "Capital | Admin",
+  "embed_link_domain": "tnktok.com",
+
+  "default_message": "@here Go check out our most recent post!\n{url}",
+
+  "embed": {
+    "enabled": false,
+    "title": "New post from {username}",
+    "description": "{title}",
+    "color": "00aeff"
+  },
+
+  "accounts": [
+    {
+      "username": "capital.roleplay4"
+    }
+  ]
+}
